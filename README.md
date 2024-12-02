@@ -22,7 +22,7 @@ Este proyecto muestra cómo extraer datos de películas desde la **API de The Mo
 - **Cargar** los datos en SQL Server para su análisis posterior.
 
 ### **Características Principales**
-1. Extraer columnas relevantes como título, puntaje de popularidad y fecha de lanzamiento.
+1. Extraer columnas relevantes.
 2. Almacenar los datos crudos en una tabla llamada `movies` en SQL Server.
 3. Clasificar la popularidad de las películas y guardar los resultados en una tabla llamada `movies_popularity`.
 
@@ -36,3 +36,20 @@ Este proyecto muestra cómo extraer datos de películas desde la **API de The Mo
 - Biblioteca de Python para conectarse a SQL Server (`pyodbc` o `pymssql`).
 
 ---
+## **DATOS A EXTRAER **
+movie_id 
+title 
+release_date 
+original_language 
+vote_average
+vote_count 
+popularity 
+overview
+genre_ids 
+
+
+## **TABLA DE POPULARIDAD**
+REALIZAR CON PYTHON
+movie_id
+title
+popularity_category valores que deberia tener (BAJA, MEDIA, ALTA)
